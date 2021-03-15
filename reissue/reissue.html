@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>パスワード再発行</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+</head>
+
+<body>
+    <div id="wrap">
+        <h1>ログインできない場合</h1>
+        <br>
+        <h2>アカウント再開の為に以下のいずれかの情報を<br>選択後、入力してください。</h2>
+        <form action="" method="POST" action="check.php">
+            ユーザー名<input type="radio" name="forget" value="username">
+            メールアドレス<input type="radio" name="forget" value="mail">
+            電話番号<input type="radio" name="forget" value="tel_num"><br>
+            <input type="text" size="35" name="username" placeholder="ユーザー名、メールアドレス、電話番号"><br>
+            <input type="submit" name="reissue" value="ログインリンク送信" >
+        </form>
+    </div>
+</body>
+</html>

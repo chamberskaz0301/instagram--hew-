@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>アカウント作成終了画面</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+    <div id="wrap">
+        <h1>
+            Instagram
+        </h1>
+    </div>
+
+    <div>
+        <p>
+            以下の内容でアカウントが<br>作成出来ました。<br>
+            楽しんでください。
+        </p>
+    </div>
+
+    <div>
+        <p>アカウント情報</p>
+        <?php echo $_POST["address"] ?>
+        <?php echo $_POST["username"] ?>
+        <?php echo $_POST["password"] ?>
+    </div>
+    
+</body>
+</html>
+

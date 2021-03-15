@@ -1,0 +1,298 @@
+body{
+    background-color: #000000;
+    color: #ffffff;
+  }
+  
+  div#wrap{
+    width: auto;
+    text-align: center;
+    line-height: 40px;
+}
+
+div h1{
+    color: brown;
+}
+
+
+
+div form label{
+    margin-right: 10px;
+    width: 100px;
+}
+
+/* iput submit */
+input[type="submit"]{
+  background-color: black;
+  color:#8fc31f;
+}
+
+/* 横並び */
+.sideby{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.sideby div{
+  margin-left: auto;
+  margin-right: 50px;  
+}
+.sideby form{
+  margin-right: auto;
+}
+
+/* ボタン */
+
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+.btn-border-gradient-wrap {
+  display: inline-block;
+  padding: 0.2rem;
+  border-radius: 0.5rem;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(yellow),
+    to(green)
+  );
+  background: -webkit-linear-gradient(left, yellow, green);
+  background: linear-gradient(to right, yellow, green);
+}
+
+.btn-border-gradient-wrap:hover {
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(yellow),
+    to(green)
+  );
+  background: -webkit-linear-gradient(right, yellow, green);
+  background: linear-gradient(to left, yellow, green);
+}
+
+
+.btn-border-gradient-wrap2 {
+  display: inline-block;
+  padding: 0.2rem;
+  border-radius: 0.5rem;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(red),
+    to(yellow)
+  );
+  background: -webkit-linear-gradient(left, red, yellow);
+  background: linear-gradient(to right, red, yellow);
+}
+.btn-border-gradient-wrap2:hover {
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(yellow),
+    to(red)
+  );
+  background: -webkit-linear-gradient(right, yellow, red);
+  background: linear-gradient(to left, red, yellow);
+
+}.btn-border-gradient-wrap3 {
+  display: inline-block;
+  padding: 0.2rem;
+  border-radius: 0.5rem;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(red),
+    to(yellow)
+  );
+  background: -webkit-linear-gradient(left, rgb(12, 235, 179), rgb(214, 16, 132));
+  background: linear-gradient(to right, rgb(27, 192, 22), rgb(54, 18, 185));
+}
+.btn-border-gradient-wrap3:hover {
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(yellow),
+    to(red)
+  );
+  background: -webkit-linear-gradient(right, rgb(12, 235, 179), rgb(214, 16, 132));
+  background: linear-gradient(to left,  rgb(27, 192, 22), rgb(54, 18, 185));
+}
+  
+  a.btn-border-gradient {
+    color: #8fc31f;
+    background: #000;
+  }
+  
+
+
+
+
+/* new_code.html */
+.box{
+    padding: 60px;
+    margin: 30px auto;
+    font-weight: bold;
+    columns: #ffffff;
+    background: #ffffff;
+    border: solid 3px #000000;
+    border-radius: 10px;
+    color: blueviolet;
+}
+.box p{
+    margin: 0; 
+    padding: 0;
+}
+
+/* top */
+.top{
+    margin: auto;
+}
+.circle {
+    display: inline-block;
+    text-decoration: none;
+    margin: auto;
+    color: #4ce90e;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    border-radius: 50%;
+    border: solid 2px #aee21e;
+    text-align: center;
+    overflow: hidden;
+    font-weight: bold;
+    transition: .4s;
+  }
+  
+  .circle:hover {
+    background: #b3e1ff;
+  }
+.wrap{
+    word-break: break-all;
+}
+
+div button{
+    width: 150px;
+}
+  /* dm */
+
+.dm1 {
+    padding: 0.5em 1em;
+    margin: 0.5em 10rem;
+    font-weight: bold;
+    border: solid 3px #ffffff;
+}
+.dm1 p {
+    margin: 0; 
+    padding: 0;
+}
+
+.dm2 {
+    padding: 1em 1em;
+    margin: 2em 5rem;
+    font-weight: bold;
+    border: solid 3px #ffffff;
+}
+.dm2 p {
+    margin: 5px; 
+    padding: 0;
+}
+
+/* story */
+
+body#story h2{
+    color: chartreuse;
+}
+
+/* user */
+
+.pic3{
+    
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    /* background-position: center center; */
+    text-align: center;
+    object-fit: cover;
+}
+
+/* activity */
+
+
+/* 投稿 */
+.post{
+padding-top: 30px;
+padding-left: 350px;
+}
+
+
+.button {
+  display       : inline-block;
+  border-radius : 20%;          /* 角丸       */
+  font-size     : 25pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 22px 19px;   /* 余白       */
+  background    : #000000;     /* 背景色     */
+  color         : #4ce90e;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  box-shadow    : 8px 8px 3px #666666;  /* 影の設定 */
+  border        : 2px solid #000000;    /* 枠の指定 */
+}
+.button:hover {
+  box-shadow    : none;        /* カーソル時の影消去 */
+  color         : #000000;     /* 背景色     */
+  background    : #4ce90e;     /* 文字色     */
+}
+
+table.recom{
+  margin: 0 auto 0 auto;
+}
+
+/* food */
+.food{
+  font-size: 1.2rem;
+}
+
+.pic{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.aikon{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
